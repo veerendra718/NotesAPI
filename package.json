@@ -1,7 +1,14 @@
 {
+  "name": "notesapi",
+  "version": "1.0.0",
+  "description": "A RESTful API for managing notes with CRUD operations, search, validation, and rate limiting",
+  "main": "app.js",
   "scripts": {
-    "start": "node app.js"
+    "start": "node app.js",
+    "dev": "nodemon app.js"
   },
+  "author": "veerendra718",
+  "license": "ISC",
   "dependencies": {
     "dotenv": "^17.2.3",
     "express": "^5.2.1",
